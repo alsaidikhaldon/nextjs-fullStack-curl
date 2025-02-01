@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   serverExternalPackages: ["mongoose"],
-  experimental: {
-    missingSuspenseWithCSRBailout: false,
-  },
+  
+ 
 
   images: {
     remotePatterns: [
